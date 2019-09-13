@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BatApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/textOnPrimaryHighEmphasis</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/textOnSecondaryHighEmphasis</item>
+
+        <item name="android:colorBackground">@color/colorSurfaceDark</item>
+        <item name="colorOnBackground">@color/textOnSurfaceHighEmphasis</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/textOnSurfaceHighEmphasis</item>
+
+        <item name="android:textColorPrimary">@color/textOnSurfaceHighEmphasis</item>
+        <item name="android:textColorSecondary">@color/textOnSurfaceMediumEmphasis</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/textOnSurfaceDisabled</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
+        <item name="materialCardViewStyle">@style/Widget.BatApp.OutlinedCardView</item>
+    </style>
+
+    <style name="Theme.BatApp" parent="Base.Theme.BatApp">
+    </style>
+
+    <style name="Widget.BatApp.OutlinedCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/cardview_stroke</item>
+        <item name="strokeWidth">@dimen/cardview_stroke_width</item>
+    </style>
+
+</resources>

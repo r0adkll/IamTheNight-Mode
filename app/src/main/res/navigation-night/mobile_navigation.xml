@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.r0adkll.batapp.ui.night.batcave.BatcaveFragment"
+        android:label="@string/title_batcave"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.r0adkll.batapp.ui.night.crimefinder.CrimeFinderFragment"
+        android:label="@string/title_crime_finder"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.r0adkll.batapp.ui.night.utilitybelt.UtilityBeltFragment"
+        android:label="@string/title_utility_belt"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

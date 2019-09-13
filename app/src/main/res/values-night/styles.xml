@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.BatApp" parent="Theme.MaterialComponents.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimaryVariant</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/textOnPrimaryHighEmphasis</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorControlActivated">@color/colorPrimaryVariant</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface</item>
+        <item name="materialCardViewStyle">@style/Widget.BatApp.OutlinedCardView</item>
+
+
+<!--        <item name="colorOnSecondary">@color/textOnSecondaryHighEmphasis</item>-->
+
+<!--        <item name="android:colorBackground">@color/colorSurface</item>-->
+<!--        <item name="colorOnBackground">@color/textOnSurfaceHighEmphasis</item>-->
+<!--        <item name="colorSurface">@color/colorSurface</item>-->
+<!--        <item name="colorOnSurface">@color/textOnSurfaceHighEmphasis</item>-->
+
+<!--        <item name="android:textColorPrimary">@color/textOnSurfaceHighEmphasis</item>-->
+<!--        <item name="android:textColorSecondary">@color/textOnSurfaceMediumEmphasis</item>-->
+<!--        <item name="android:textColorPrimaryDisableOnly">@color/textOnSurfaceDisabled</item>-->
+    </style>
+
+    <color name="cardview_stroke">#1FFFFFFF</color>
+
+</resources>

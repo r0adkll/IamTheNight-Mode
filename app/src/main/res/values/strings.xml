@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wayne Industries</string>
+    <string name="title_home">Company</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_batcave">Batcave</string>
+    <string name="title_crime_finder">Crime finder</string>
+    <string name="title_utility_belt">Utility Belt</string>
+    <string name="title_home_appbar">Wayne Industries, Inc.</string>
+</resources>
